@@ -21,12 +21,12 @@ export default function RootLayout({
         {/* Utmify Pixel */}
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
-            window.pixelId = "68a4de217ebd96dd10131540";
-            var a = document.createElement("script");
-            a.setAttribute("async", "");
-            a.setAttribute("defer", "");
-            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-            document.head.appendChild(a);
+              window.pixelId = "68a50cb18ab1aa1e7febac8d";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
           `}
         </Script>
 
@@ -60,7 +60,7 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '2167725977035864');
+            fbq('init', '1267252275177512');
             fbq('track', 'PageView');
           `}
         </Script>
@@ -71,7 +71,7 @@ export default function RootLayout({
             height="1"
             width="1"
             style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=2167725977035864&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1267252275177512&ev=PageView&noscript=1"
           />
         </noscript>
 
