@@ -104,7 +104,7 @@ export default function YahooEmail({ onEmailClick }: YahooEmailProps) {
                   <div className="text-xs sm:text-sm text-gray-500 flex-shrink-0">há 2 horas</div>
                 </div>
                 <div className="text-sm font-medium text-gray-700 mt-1">
-                  TRABALHE EM CASA COM WHATSAPP E GANHE R$250+ POR DIA
+                  TRABALHE EM CASA COM WHATSAPP E GANHE R$2500+ POR DIA
                 </div>
                 <div className="text-xs sm:text-sm text-gray-600 mt-1 line-clamp-2">
                   Vaga disponível para atendimento via WhatsApp. Trabalhe no conforto da sua casa e ganhe até R$400 por
