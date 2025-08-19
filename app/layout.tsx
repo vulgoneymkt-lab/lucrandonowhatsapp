@@ -30,6 +30,25 @@ export default function RootLayout({
           `}
         </Script>
 
+        {/* Utmify UTMs */}
+        <Script
+          id="utmify-utms"
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+          strategy="afterInteractive"
+        />
+
+        {/* Utmify UTMs <noscript> */}
+        <noscript>
+          <iframe
+            src="https://cdn.utmify.com.br/scripts/utms/noscript.html?pixelId=68a4de217ebd96dd10131540"
+            height="1"
+            width="1"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+
         {/* Meta Pixel Code */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
@@ -45,6 +64,8 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
+
+        {/* Meta Pixel <noscript> */}
         <noscript>
           <img
             height="1"
@@ -66,4 +87,3 @@ export default function RootLayout({
     </html>
   )
 }
-
