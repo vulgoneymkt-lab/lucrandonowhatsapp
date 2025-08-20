@@ -21,7 +21,7 @@ export default function RootLayout({
         {/* Utmify Pixel */}
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
-              window.pixelId = "68a50cb18ab1aa1e7febac8d";
+              window.pixelId = "68a54d0439f63d3121a2f3e2";
   var a = document.createElement("script");
   a.setAttribute("async", "");
   a.setAttribute("defer", "");
@@ -42,7 +42,7 @@ export default function RootLayout({
         {/* Utmify UTMs <noscript> */}
         <noscript>
           <iframe
-            src="https://cdn.utmify.com.br/scripts/utms/noscript.html?pixelId=68a4de217ebd96dd10131540"
+            src="https://cdn.utmify.com.br/scripts/utms/noscript.html?pixelId=68a54d0439f63d3121a2f3e2"
             height="1"
             width="1"
             style={{ display: 'none', visibility: 'hidden' }}
@@ -60,7 +60,7 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1267252275177512');
+            fbq('init', '1453188662470768');
             fbq('track', 'PageView');
           `}
         </Script>
@@ -71,7 +71,7 @@ export default function RootLayout({
             height="1"
             width="1"
             style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=1267252275177512&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1453188662470768&ev=PageView&noscript=1"
           />
         </noscript>
 
